@@ -39,12 +39,12 @@ import com.github.lincolnluiz.SpringWebService.endpoints.BookEndpoint;
 @Configuration
 @EnableAutoConfiguration
 public class WebServiceConfig {
-	
-	@Autowired
+
+    @Autowired
     private Bus bus;
 	
-	@Autowired
-	private BookEndpoint bookEndpoint;
+    @Autowired
+    private BookEndpoint bookEndpoint;
  
     @Bean
     public Endpoint endpoint() {
